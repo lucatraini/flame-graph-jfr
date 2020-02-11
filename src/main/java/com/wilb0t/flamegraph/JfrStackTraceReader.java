@@ -68,7 +68,7 @@ public class JfrStackTraceReader {
 
     methodBuilder
         .append(method.getType().getName())
-        .append("::")
+        .append(".")
         .append(method.getName());
 
     return Stream.of(methodBuilder.toString());
